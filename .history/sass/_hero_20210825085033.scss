@@ -1,0 +1,7 @@
+.hero{
+    position: relative;
+    &-image{
+        position: absolute;
+        right: 0;
+    }
+}

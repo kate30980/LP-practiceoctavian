@@ -1,0 +1,17 @@
+.contact{
+    padding: 150px 0;
+    background: url("../images/contact-bg.png") no-repeat center/ cover;
+    &-header{
+        margin: 0 auto 100px;
+        text-align: center;
+    }
+    &-heading{
+        font-weight: 300;
+    }
+    strong{
+        font-weight: bold;
+    }
+    &-heading, &-desc{
+        color: white;
+    }
+}

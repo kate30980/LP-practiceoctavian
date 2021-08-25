@@ -1,0 +1,44 @@
+.contact{
+    padding: 150px 0;
+    background: url("../images/contact-bg.png") no-repeat center/ cover;
+    &-container{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    &-header{
+        margin: 0 auto 100px;
+        text-align: center;
+    }
+    &-heading{
+        font-weight: 300;
+    }
+    strong{
+        font-weight: bold;
+    }
+    &-heading, &-desc{
+        color: white;
+        text-align: center;
+    }
+    &-field{
+        padding: 20px 30px;
+        display: block;
+        width: 100%;
+        border: 1px solid rgba(white, 0.5);
+        border-radius: 4px;
+        margin-bottom: 30px;
+        background-color: transparent;
+        input::-webkit-input-placeholder{
+        color: white;
+        }
+        input::-moz-input-placeholder{
+        color: white;
+        }
+    }
+
+    &-area{
+        line-height: 1.55;
+        resize: none;
+        // khong cho keo tha doi vs textarea nay
+        min-height: 100px;
+    }
+}

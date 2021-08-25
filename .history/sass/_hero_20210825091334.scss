@@ -1,0 +1,31 @@
+.hero{
+    position: relative;
+    &-image{
+        margin-left: auto;
+        display: block;
+    }
+    &-content{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+    &-caption{
+        font-size: 72px;
+        font-weight: 600;
+        color: black;
+    }
+    &-heading{
+        font-weight: 800;font-size: 150px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        color: black;
+    }
+    &-link{
+        font-size: 18px;
+        text-decoration: underline;
+        color: $gray-light;
+        display: inline-block;
+        font-weight: 600;
+    }
+}

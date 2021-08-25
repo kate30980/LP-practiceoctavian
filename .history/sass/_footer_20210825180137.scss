@@ -1,0 +1,26 @@
+.footer{
+    padding: 150px 0;
+    background-color: $gray-dark;
+    &-main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 130px;
+    }
+    &-logo{
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+    &-desc{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        gap: 0 30px;
+        cursor: pointer;
+        &-item:hover{
+            opacity: 0.1;
+        }
+    }
+}

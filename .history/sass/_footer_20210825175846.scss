@@ -1,0 +1,13 @@
+.footer{
+    padding: 150px 0;
+    background-color: $gray-dark;
+    &-main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 130px;
+    }
+    &-logo{
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+}

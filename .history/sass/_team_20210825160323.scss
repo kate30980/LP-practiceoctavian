@@ -1,0 +1,19 @@
+.team{
+    padding: 150px 0;
+    background-color: $gray-lighter;
+    &-main{
+        display: flex;
+        align-items: center;
+        // facenter
+        justify-content: space-between;
+    }
+    &-content{
+        max-width: 370px;
+        flex-shrink: 0;
+        width: 100%;
+    }
+    &-images{
+        width: 100%;
+        max-width: 670px;
+    }
+}
